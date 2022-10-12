@@ -29,23 +29,23 @@ However, briefly: The model considers a geometry as outlined in Kubota & Done (2
 
 Model Parameters
 -----------------
-Par 1 : Mass - Black hole mass in solar masses
-Par 2 : Dist - Co-Moving distance in Mpc
-Par 3 : log_mdot - Mass accretion rate, where mdot = Mdot/Mdot_edd and ets*Mdot_edd*c**2 = Ledd
-Par 4 : astar - Dimensionless black hole spin
-Par 5 : cos_inc - cosine of the inclination angle, measured from z-axis with the disc in the x-y plane
-Par 6 : kTe_hot - Electron temperature of hot Comptonisation region in keV - if negative, then only returns hot Compton component
-Par 7 : kTe_warm - Electron temperature of warm Comtonisation region in keV - if negative, then only returns warm Compton component
-Par 8 : gamma_hot - Photon index for hot Comptonisation region
-Par 9 : gamma_warm - Photon index for warm Comptonisation region - if negative, then only returns the outer disc component
-Par 10 : r_hot - Outer radius of hot Comptonisation region in Rg
-Par 11 : r_warm - Outer radius of warm Comptonisation region in Rg
-Par 12 : log_rout - Outer radius of the outer disc in Rg - If negative, then uses the self-gravity radius, calculated as in Laor and Netzer (1989)
-Par 13 : hmax - Scale height of the corona in Rg
-Par 14 : fcov - Covering fraction of the outflow, as seen by the black hole, in $\Omega/4\pi$
-Par 15 : kT_wind - Black-body temperature of wind/outflow component in keV
-Par 16 : Awind - Albedo of wind/outflow
-Par 17 : inc_blue - flag, 1=>include blurring of reflected component (using rdblur), 2=>no blurring
-Par 18 : rin_blur - Convineince parameter. Comes from the way rdblur is written (assumes a standard disc in Keplerian orbit). Needed to determine the 'amount' of blurring
-Par 19 : Redshift
-par 20 : Normalisation - should be fixed to 1!! - The code calculates energetics self-consistently
+Par 1 : Mass - Black hole mass in solar masses <br/>
+Par 2 : Dist - Co-Moving distance in Mpc <br/>
+Par 3 : $\log(\dot{m})$ - Mass accretion rate, where $\dot{m} = \dot{M}/\dot{M}_{\text{edd}}$ is in units of the Eddington mass accretion rate<br/>
+Par 4 : astar - Dimensionless black hole spin <br/>
+Par 5 : cos_inc - cosine of the inclination angle, measured from z-axis with the disc in the x-y plane <br/>
+Par 6 : kTe_hot - Electron temperature of hot Comptonisation region in keV - if negative, then only returns hot Compton component <br/>
+Par 7 : kTe_warm - Electron temperature of warm Comtonisation region in keV - if negative, then only returns warm Compton component <br/>
+Par 8 : gamma_hot - Photon index for hot Comptonisation region <br/>
+Par 9 : gamma_warm - Photon index for warm Comptonisation region - if negative, then only returns the outer disc component <br/>
+Par 10 : r_hot - Outer radius of hot Comptonisation region in Rg <br/>
+Par 11 : r_warm - Outer radius of warm Comptonisation region in Rg <br/>
+Par 12 : log_rout - Outer radius of the outer disc in Rg - If negative, then uses the self-gravity radius, calculated as in Laor and Netzer (1989) <br/>
+Par 13 : hmax - Scale height of the corona in Rg <br/>
+Par 14 : fcov - Covering fraction of the outflow, as seen by the black hole, in $\Omega/4\pi$ <br/>
+Par 15 : kT_wind - Black-body temperature of wind/outflow component in keV <br/>
+Par 16 : Awind - Albedo of wind/outflow <br/>
+Par 17 : inc_blue - flag, 1=>include blurring of reflected component (using rdblur), 2=>no blurring <br/>
+Par 18 : rin_blur - Convineince parameter. Comes from the way rdblur is written (assumes a standard disc in Keplerian orbit). Needed to determine the 'amount' of blurring <br/>
+Par 19 : Redshift <br/>
+par 20 : Normalisation - should be fixed to 1!! - The code calculates energetics self-consistently <br/>
